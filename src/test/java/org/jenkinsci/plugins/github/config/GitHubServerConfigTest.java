@@ -4,13 +4,13 @@ import org.junit.Test;
 
 import java.net.URI;
 
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.nullValue;
 import static org.jenkinsci.plugins.github.config.GitHubServerConfig.GITHUB_URL;
 import static org.jenkinsci.plugins.github.config.GitHubServerConfig.allowedToManageHooks;
 import static org.jenkinsci.plugins.github.config.GitHubServerConfig.isUrlCustom;
 import static org.jenkinsci.plugins.github.config.GitHubServerConfig.withHost;
-import static org.junit.Assert.assertThat;
 
 /**
  * @author lanwen (Merkushev Kirill)
